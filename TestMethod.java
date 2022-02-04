@@ -5,6 +5,6 @@ import org.junit.*;
 public class TestMethod {
     @Test
     public void testMethod(){
-        assertEquals(2,Method.theDouble(2));//this should fail
+        assertEquals(2,Method.theDouble(1));//this should success 2*1 = 2
     }
 }
